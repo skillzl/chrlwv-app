@@ -1,5 +1,5 @@
 {
-  "name": "chrlwv-bot",
+  "name": "chrlwv-app",
   "version": "1.0.1",
   "description": "A multipurpose discord client written in javascript.",
   "main": "index.js",
