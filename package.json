@@ -1,0 +1,51 @@
+{
+  "name": "chrlwv-bot",
+  "version": "1.0.0",
+  "description": "A multipurpose discord client written in javascript.",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skillzl/chrlwv-bot.git"
+  },
+  "keywords": [
+    "discord.js",
+    "discord.bot",
+    "bot",
+    "music",
+    "music-bot",
+    "mongodb"
+  ],
+  "author": "Catalin 'skillzl' Ta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skillzl/chrlwv-bot/issues"
+  },
+  "homepage": "https://chrlwv.tech",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.0.0",
+    "bufferutil": "^4.0.6",
+    "chalk": "^4.0.0",
+    "discord-api-types": "^0.36.2",
+    "discord-music-player": "^9.0.2",
+    "discord.js": "^14.0.3",
+    "discordjs-button-pagination": "^3.0.1",
+    "dotenv": "^16.0.1",
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.4.5",
+    "nodemon": "^2.0.20",
+    "pretty-ms": "^8.0.0",
+    "seconds-formater": "^1.2.0",
+    "utf-8-validate": "^5.0.9",
+    "util": "^0.12.4",
+    "ytdl-core": "^4.11.2"
+  }
+}
