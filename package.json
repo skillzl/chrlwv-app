@@ -22,7 +22,7 @@
     "mongodb"
   ],
   "author": "Catalin 'skillzl' Ta",
-  "license": "ISC",
+  "license": "GNU General Public License v3.0",
   "bugs": {
     "url": "https://github.com/skillzl/chrlwv-bot/issues"
   },
