@@ -7,6 +7,7 @@ module.exports = class Loop extends Interaction {
         super({
             name: "loop",
             description: "Changes the loop mode",
+            ownerOnly: false,
             options: [{
                 type: ApplicationCommandOptionType.String,
                 name: "mode",

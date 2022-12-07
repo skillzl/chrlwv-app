@@ -3,6 +3,7 @@ module.exports = class Announce extends Interaction {
         super({
             name: "announce",
             description: "Toggles whether to send the started playing message",
+            ownerOnly: false,
             options: [{
                 type: ApplicationCommandOptionType.Boolean,
                 name: "mode",

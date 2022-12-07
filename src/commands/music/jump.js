@@ -3,6 +3,7 @@ module.exports = class Jump extends Interaction {
         super({
             name: "jump",
             description: "Skips to a specific track in the queue",
+            ownerOnly: false,
             options: [{
                 type: ApplicationCommandOptionType.Integer,
                 name: "song",

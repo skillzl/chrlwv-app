@@ -5,6 +5,7 @@ module.exports = class Queue extends Interaction {
         super({
             name: "queue",
             description: "Displays the queue of songs",
+            ownerOnly: false,
         });
     }
 

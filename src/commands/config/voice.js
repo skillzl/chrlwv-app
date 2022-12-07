@@ -3,6 +3,7 @@ module.exports = class Voice extends Interaction {
         super({
             name: "voice",
             description: "Manage the allowed voice channels",
+            ownerOnly: false,
             options: [{
                     type: ApplicationCommandOptionType.Subcommand,
                     name: "add",

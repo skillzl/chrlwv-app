@@ -3,6 +3,7 @@ module.exports = class Volume extends Interaction {
     super({
       name: "volume",
       description: "Changes the volume of the music player",
+      ownerOnly: false,
       options: [{
         type: ApplicationCommandOptionType.Integer,
         name: "value",

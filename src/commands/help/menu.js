@@ -8,6 +8,7 @@ module.exports = class Help extends Interaction {
         super({
             name: "help",
             description: "Generating help commands tab. (specify a command name for more informations for the selected item)",
+            ownerOnly: false,
             options: [{
                 type: ApplicationCommandOptionType.String,
                 name: "input",

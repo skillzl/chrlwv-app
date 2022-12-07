@@ -35,6 +35,8 @@ module.exports = class Bot extends Client {
             },
         });
 
+        this.owners = process.env.OWNER_ID;
+
         this.events = new Collection();
         this.emotes = new Collection();
         this.logger = require("../utils/Logger");

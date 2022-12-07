@@ -8,6 +8,7 @@ module.exports = class Playlist extends Interaction {
         super({
             name: "playlist",
             description: "Adds a playlist to the queue",
+            ownerOnly: false,
             options: [{
                 type: ApplicationCommandOptionType.String,
                 name: "input",

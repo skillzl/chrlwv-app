@@ -6,6 +6,7 @@ module.exports = class Fav extends Interaction {
         super({
             name: "fav",
             description: "Manage your favorite songs",
+            ownerOnly: false,
             options: [{
                     type: ApplicationCommandOptionType.Subcommand,
                     name: "add",

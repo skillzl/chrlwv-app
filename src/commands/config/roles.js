@@ -3,6 +3,7 @@ module.exports = class Roles extends Interaction {
         super({
             name: "roles",
             description: "Manage DJ roles",
+            ownerOnly: false,
             options: [{
                     type: ApplicationCommandOptionType.Subcommand,
                     name: "add",
