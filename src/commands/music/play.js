@@ -8,7 +8,6 @@ module.exports = class Play extends Interaction {
         super({
             name: "play",
             description: "Adds a song to the queue",
-            ownerOnly: false,
             options: [{
                     type: ApplicationCommandOptionType.String,
                     name: "input",

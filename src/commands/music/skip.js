@@ -3,7 +3,6 @@ module.exports = class Skip extends Interaction {
         super({
             name: "skip",
             description: "Skips the current track",
-            ownerOnly: false,
         });
     }
 

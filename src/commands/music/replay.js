@@ -3,7 +3,6 @@ module.exports = class Replay extends Interaction {
         super({
             name: "replay",
             description: "Replays the current track",
-            ownerOnly: false,
         });
     }
 

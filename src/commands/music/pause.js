@@ -3,7 +3,6 @@ module.exports = class Pause extends Interaction {
         super({
             name: "pause",
             description: "Alternates the pause state of the music player",
-            ownerOnly: false,
         });
     }
 

@@ -11,7 +11,6 @@ module.exports = class NowPlaying extends Interaction {
         super({
             name: "nowplaying",
             description: "Displays the current playing track",
-            ownerOnly: false,
         });
     }
 

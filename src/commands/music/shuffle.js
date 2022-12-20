@@ -3,7 +3,6 @@ module.exports = class Shuffle extends Interaction {
         super({
             name: "shuffle",
             description: "Shuffles the queue",
-            ownerOnly: false,
         });
     }
 

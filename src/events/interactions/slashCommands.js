@@ -12,10 +12,6 @@ module.exports = class SlashCommands extends Event {
         if (!cmd) return;
 
         try {
-
-            if (interaction.ownerOnly && !this.client.owners.includes(interaction.author.id))
-            return;
-
             await cmd.exec(interaction, data);
         } catch (err) {
             if (interaction.replied || interaction.deferred) {

@@ -5,7 +5,6 @@ module.exports = class Search extends Interaction {
         super({
             name: "search",
             description: "Searches for a track in YouTube",
-            ownerOnly: false,
             options: [{
                 type: ApplicationCommandOptionType.String,
                 name: "input",

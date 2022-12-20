@@ -3,7 +3,6 @@ module.exports = class Stop extends Interaction {
         super({
             name: "stop",
             description: "Stops the music player",
-            ownerOnly: false,
         });
     }
 

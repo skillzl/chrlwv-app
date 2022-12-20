@@ -3,7 +3,6 @@ module.exports = class Last extends Interaction {
         super({
             name: "last",
             description: "Adds the last played track to the queue",
-            ownerOnly: false,
         });
     }
 
