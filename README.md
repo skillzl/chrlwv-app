@@ -1,5 +1,5 @@
 
-> chrlwv-app><br/> advanced discord application 
+> chrlwv-app<br/> advanced discord application 
 
 A multipurpose discord application written in javascript.
 
