@@ -1,5 +1,5 @@
 
-> <img style="border-radius: 200px;" src="https://japi.rest/discord/v1/user/1049708735821516830/avatar?size=512"  width="20"/> chrlwv<strong>#8601</strong><br/> advanced discord application 
+> chrlwv-app><br/> advanced discord application 
 
 A multipurpose discord application written in javascript.
 
