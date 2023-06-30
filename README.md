@@ -10,7 +10,7 @@ A multipurpose discord application written in javascript.
 - Social system with reputation status, credits and levels.
 - Moderation features with auto-moderation and more.
 
-All the sessions are maintained on  `aws ec2`  by  [skillzl](https://skillzl.me/)
+All the sessions were maintained on  `aws ec2`  by  [skillzl](https://github.com/skillzl)
 
 > **Tip:** Application is still in development, so some features may not work as expected.
 
